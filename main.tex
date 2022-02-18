@@ -11,6 +11,12 @@
 \usepackage{graphicx} % Extension pour les images
 \usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry} % marges
 
+\usepackage{blindtext}
+\usepackage{multicol}
+\setlength{\columnsep}{15pt}
+\usepackage{color}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{black}}
 
 % Document
 \begin{document}
@@ -22,19 +28,31 @@
     \tableofcontents
 
     \section{Omelette espagnole}
-    3 cuillère à soupe d'huile d'olive
-    2 oignons hachés
-    2 gousses d'ail écrasées
-    1 poivron rouge évidé et haché
-    4 oeufs
-    sel et poivre
-    2 grosses pommes de terre cuites et émincées
-    2 cuillères à soupe de persil haché
 
-    Faites chauffer 2 cuillère à soupe d'huile dans une poêl de 24 cm, ajoutez et faites revenir les oignons. Ajouter l'ail, le poivron et laissez cuire 10 minutes.
-    Battez les oeufs dans une jatte avec le sel, le poivre, puis ajoutez-leur les pommes de terre, le persil et le mélange précédent.
-    Faites chauffer le reste d'huil dans la poêle, versez le mélange et laissez cuire 5 minutes, en secouant la poêle.
-    Passez 3 minutes sous le gril, faites glisser l'omelette sur le plat de service et coupez-la en portions.
+    \begin{multicols}{2}
+        \parbox[1cm]{\textwidth}{
+            \begin{ingredients}
+                \item 3 cuillère à soupe d'huile d'olive
+                \item 1 à 2 oignons hachés
+                \item 2 gousses d'ail écrasées
+                \item 1 poivron rouge évidé et haché
+                \item 4 oeufs
+                \item sel et poivre
+                \item 2 grosses pommes de terre cuites et émincées
+                \item 2 cuillères à soupe de persil haché
+            \end{ingredients}
+        }
 
-    Pour 4 personnes
+        \columnbreak
+        Faites chauffer 2 cuillère à soupe d'huile dans une poêle de 24 cm, ajoutez et faites revenir les oignons. Ajouter l'ail, le poivron et laissez cuire 10 minutes.
+        \newline
+
+        Battez les oeufs dans une jatte avec le sel, le poivre, puis ajoutez-leur les pommes de terre, le persil et le mélange précédent.
+        \newline
+
+        Faites chauffer le reste d'huil dans la poêle, versez le mélange et laissez cuire 5 minutes, en secouant la poêle.
+        \newline
+        \newline
+        \textbf{Pour 4 personnes}
+    \end{multicols}
 \end{document}
