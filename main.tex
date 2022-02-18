@@ -3,6 +3,9 @@
 
 % Preamble
 \documentclass[10pt,a4paper]{recettes}
+% Gestion du titre
+\author{Stéphane Bressani}
+\title{Recettes de cuisines}
 
 % Packages
 \usepackage[utf8]{inputenc} % Encodage d'entrée
@@ -14,19 +17,17 @@
 \usepackage{blindtext}
 \usepackage{multicol}
 \setlength{\columnsep}{15pt}
-\usepackage{color}
 \setlength{\columnseprule}{1pt}
-\def\columnseprulecolor{\color{black}}
+\renewcommand*\contentsname{Summary}
 
 % Document
 \begin{document}
-
     % Affichage du titre
     \maketitle
-
     % Affichage de la table des matières
     \tableofcontents
 
+    \chapter{Repas chaud}
     \section{Omelette espagnole}
 
     \begin{multicols}{2}
@@ -42,8 +43,8 @@
                 \item \textit{2 cuillères à soupe de persil haché}
             \end{ingredients}
         }
-
         \columnbreak
+
         Faites chauffer 2 cuillère à soupe d'huile dans une poêle de 24 cm, ajoutez et faites revenir les oignons. Ajouter l'ail, le poivron et laissez cuire 10 minutes.
         \newline
 
@@ -55,4 +56,6 @@
         \newline
         \textbf{Pour 4 personnes}
     \end{multicols}
+    \section{Suite}
+    Suite
 \end{document}

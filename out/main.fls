@@ -50,10 +50,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /Users/stephane/IdeaProjects/LaTeX/TexRecette/out/main.aux
 INPUT /Users/stephane/IdeaProjects/LaTeX/TexRecette/out/main.aux
 OUTPUT /Users/stephane/IdeaProjects/LaTeX/TexRecette/out/main.aux
