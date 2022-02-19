@@ -1,4 +1,6 @@
 \babel@toc {french}{}
 \contentsline {chapter}{\numberline {1}Repas chaud}{2}
-\contentsline {section}{\numberline {1.1}Omelette espagnole}{2}
-\contentsline {section}{\numberline {1.2}Curry de haricots}{3}
+\contentsline {section}{\numberline {1.1}Omelette espagnole}{3}
+\contentsline {section}{\numberline {1.2}Curry de haricots}{4}
+\contentsline {section}{\numberline {1.3}Tarte tata}{5}
+\contentsline {section}{\numberline {1.4}Spaghetti v\IeC {\'e}g\IeC {\'e}tarien}{5}
