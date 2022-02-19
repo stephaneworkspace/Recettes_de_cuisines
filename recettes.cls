@@ -1,1 +1,0 @@
-\ProvidesClass{recettes}[2022/02/18 Recettes, V1.0]
