@@ -1,0 +1,4 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {1}Repas chaud}{2}
+\contentsline {section}{\numberline {1.1}Omelette espagnole}{2}
+\contentsline {section}{\numberline {1.2}Curry de haricots}{3}
