@@ -16,9 +16,17 @@
 
 \usepackage{blindtext}
 \usepackage{multicol}
+\usepackage{textcomp}
 \setlength{\columnsep}{15pt}
 \setlength{\columnseprule}{1pt}
 
+\usepackage{enumitem}
+\setlist[description]{
+    style=nextline,
+    labelwidth=0pt,
+    leftmargin=15pt,
+    itemindent=\dimexpr-5pt-\labelsep\relax,
+}
 
 % Document
 \begin{document}
@@ -26,6 +34,71 @@
     \maketitle
     % Affichage de la table des matières
     \tableofcontents
+
+    \chapter{Pains}
+    \newpage
+
+    % Section
+    \section{Tresse du dimanche}
+    \begin{multicols}{2}
+        \parbox[1cm]{\textwidth}{
+            \begin{description}
+                \item
+                \textit{500g de farine de tresse ou farine blanche}
+                \item
+                \textit{1/2 cuillère à soupe de sel}
+                \item
+                \textit{15g de levure fraiche)}
+                \item
+                \textit{Ou un sachet de levure en poudre)}
+                \item
+                \textit{1/2 cuillère à soupe de sucre}
+                \item
+                \textit{65g de beurre mou}
+                \item
+                \textit{3.5 dl de lait}
+                \item
+                \textit{Jaune d'oeuf}
+                \item
+            \end{description}
+        }
+        \centerline{\includegraphics[width=0.48\textwidth]{./assets/tresse_du_dimanche_1}}
+        \centerline{\includegraphics[width=0.48\textwidth]{./assets/tresse_du_dimanche_2}}
+        \centerline{\includegraphics[width=0.48\textwidth]{./assets/tresse_du_dimanche_3}}
+        \centerline{\includegraphics[width=0.48\textwidth]{./assets/tresse_du_dimanche_4}}
+        \columnbreak
+
+        Melangez d'abord la farine, le sel, le sucre et la levure en poudre dans un grand bol.
+        \newline
+
+        Ajoutez le lait, le beurre en dés, la levure fraiche dans le même grand bol.
+        \newline
+
+        Petrir à la main pendant 10 minutes ou 4 minutes avec la machine en une pate mole est lisse.
+        \centerline{\includegraphics[width=0.48\textwidth]{./assets/tresse_du_dimanche}}
+        \newline
+
+        Couvrir et laissez doubler de volume pendant minimum 1 heure et demi à temperature ambiante.
+        \newline
+
+        Préchauffez le four à 200\textdegree
+        \newline
+
+        Coupez la pâte en deux portions, fassonez chacune en un rouleau d'environ 70cm de long aux extrémitées plus fines.
+        \newline
+
+        Tressez, déposer sur une plaque chemisé de papier cuisson.
+        \newline
+
+        Mélangez le jaune d'oeuf, plus une cuillère de soupe de lait. Dorez la tresse et laissez lever encore envirion 30 minutes.
+        \newline
+
+        Dorez encore à l'oeuf et au lait. Cuisson environ 35 à 45 minutes dans la moitié inférieur du four.
+        \centerline{\includegraphics[width=0.48\textwidth]{./assets/tresse_du_dimanche_5}}
+        \newline
+        \newline
+        \textbf{Pour 4 personnes}
+    \end{multicols}
 
     \chapter{Repas chaud}
     \newpage
@@ -36,14 +109,22 @@
     \begin{multicols}{2}
         \parbox[1cm]{\textwidth}{
             \begin{description}
-                \item \textit{3 cuillère à soupe d'huile d'olive}
-                \item \textit{1 à 2 oignons hachés}
-                \item \textit{2 gousses d'ail écrasées}
-                \item \textit{1 poivron rouge évidé et haché}
-                \item \textit{4 oeufs}
-                \item \textit{sel et poivre}
-                \item \textit{2 grosses pommes de terre cuites et émincées}
-                \item \textit{2 cuillères à soupe de persil haché}
+                \item
+                \textit{3 cuillère à soupe d'huile d'olive}
+                \item
+                \textit{1 à 2 oignons hachés}
+                \item
+                \textit{2 gousses d'ail écrasées}
+                \item
+                \textit{1 poivron rouge évidé et haché}
+                \item
+                \textit{4 oeufs}
+                \item
+                \textit{sel et poivre}
+                \item
+                \textit{2 grosses pommes de terre cuites et émincées}
+                \item
+                \textit{2 cuillères à soupe de persil haché}
             \end{description}
         }
         \columnbreak
@@ -68,17 +149,29 @@
     \begin{multicols}{2}
         \parbox[1cm]{\textwidth}{
             \begin{description}
-                \item \textit{500g de haricots noirs ayant trempé une nuit}
-                \item \textit{sel}
-                \item \textit{3 cuillères à café de cumin moulu}
-                \item \textit{1 cuillère à café de garam massala}
-                \item \textit{1 pincée de Cayenne}
-                \item \textit{1 cm de gingembre haché}
-                \item \textit{4 gousses d'ail pilées}
-                \item \textit{400g de tomates}
-                \item \textit{3 branches de céleri}
-                \item \textit{1 cuillère a café de cardamome}
-                \item \textit{1 cuillère à soupe de coriandre hachée}
+                \item
+                \textit{500g de haricots noirs ayant trempé une nuit}
+                \item
+                \textit{sel}
+                \item
+                \textit{3 cuillères à café de cumin moulu}
+                \item
+                \textit{1 cuillère à café de garam massala}
+                \item
+                \textit{1 pincée de Cayenne}
+                \item
+                \textit{1 cm de gingembre haché}
+                \item
+                \textit{4 gousses d'ail pilées}
+                \item
+                \textit{400g de tomates}
+                \item
+                \textit{3 branches de céleri}
+                \item
+                \textit{1 cuillère a café de cardamome}
+                \item
+                \textit{1 cuillère à soupe de coriandre hachée}
+                \item
             \end{description}
         }
         \columnbreak
@@ -97,6 +190,48 @@
         \newline
         \centerline{\includegraphics[width=0.48\textwidth]{./assets/curry_de_haricots_fin}}
     \end{multicols}
+    \newpage
+
+    % Section
+    \section{Risotto milanese}
+
+    \begin{multicols}{2}
+        \parbox[1cm]{\textwidth}{
+            \begin{description}
+                \item
+                \textit{1 oignon}
+                \item
+                \textit{1 gousse d'ail}
+                \item
+                \textit{1 cuillère à soupe d'huile d'olive}
+                \item
+                \textit{400g de riz à risotto (ex: arborio)}
+                \item
+                \textit{1 sachet à safran}
+                \item
+                \textit{4dl de vin blanc}
+                \item
+                \textit{1l de bouillon de légume}
+                \item
+                \textit{50g de parmesan rappé}
+                \item
+                \textit{sel et poivre}
+            \end{description}
+        }
+        \columnbreak
+        \newline
+        Pelez l'oignon et l'ail, hachez finement.
+        \newline
+        \newline
+        Faire chauffer l'huile dans une casserole et y faire revenir l'oignon et l'ail. Ajoutez le riz et le safran, nacrez en remuant. Versez la moitié du vin, faire réduire complètement, ajoutez le reste du vin, faire réduire complètement. Versez peu à peu le bouillon en remuant souvant de manière a juste mouillez le riz à hauteur, laissez mijoter environ 20 minutes jusqu'à ce qu'il soit cremeux et aldante.
+        \newline
+        \newline
+        Incorporer le parmesan et rectifier l'assaisonnement.
+        \newline
+        \newline
+        \textbf{Pour 4 personnes}
+    \end{multicols}
+    \newpage
 
     % Section
     \section{Tarte tata}
@@ -108,10 +243,13 @@
             \end{description}
         }
         \columnbreak
-
+        \newline
+        \centerline{\includegraphics[width=0.48\textwidth]{./assets/tarte_tata}}
+        \newline
         \newline
         \textbf{Pour 4 personnes}
     \end{multicols}
+    \newpage
 
     % Section
     \section{Spaghetti végétarien}
@@ -124,7 +262,41 @@
         }
         \columnbreak
 
-        \newline
         \textbf{Pour 4 personnes}
     \end{multicols}
+    \newpage
+
+    % Section
+    \section{Tarte aux poireaux}
+
+    \begin{multicols}{2}
+        \parbox[1cm]{\textwidth}{
+            \begin{description}
+                \item \textit{à faire}
+            \end{description}
+        }
+        \columnbreak
+
+        \textbf{Pour 4 personnes}
+    \end{multicols}
+    \newpage
+
+    \chapter{Desert}
+    \newpage
+
+    % Section
+    \section{Flon}
+
+    \begin{multicols}{2}
+        \parbox[1cm]{\textwidth}{
+            \begin{description}
+                \item \textit{à faire}
+            \end{description}
+        }
+        \columnbreak
+
+        \textbf{Pour 4 personnes}
+    \end{multicols}
+    \newpage
+
 \end{document}
