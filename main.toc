@@ -7,3 +7,7 @@
 \contentsline {section}{\numberline {2.3}Risotto milanese}{7}
 \contentsline {section}{\numberline {2.4}Tarte tata}{8}
 \contentsline {section}{\numberline {2.5}Spaghetti v\IeC {\'e}g\IeC {\'e}tarien}{9}
+\contentsline {section}{\numberline {2.6}Quiche au brocolis}{10}
+\contentsline {section}{\numberline {2.7}Tarte aux poireaux}{11}
+\contentsline {chapter}{\numberline {3}Desert}{12}
+\contentsline {section}{\numberline {3.1}Flon}{13}

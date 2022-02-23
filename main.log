@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2022.2.18)  20 FEB 2022 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2022.2.18)  23 FEB 2022 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,22 +682,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--192
  []
 
 [6 <./assets/curry_de_haricots.jpg> <./assets/curry_de_haricots_fin.jpg>]
-Overfull \hbox (264.34843pt too wide) in paragraph at lines 220--233
+Overfull \hbox (264.34843pt too wide) in paragraph at lines 220--231
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--233
+Underfull \hbox (badness 10000) in paragraph at lines 220--231
 
  []
 
@@ -705,24 +695,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--233
 <./assets/tarte_tata.png, id=48, 2917.90125pt x 2784.4025pt>
 File: ./assets/tarte_tata.png Graphic file (type png)
 <use ./assets/tarte_tata.png>
-Package pdftex.def Info: ./assets/tarte_tata.png  used on input line 247.
+Package pdftex.def Info: ./assets/tarte_tata.png  used on input line 245.
 (pdftex.def)             Requested size: 232.17242pt x 221.52464pt.
 
-Overfull \hbox (264.34843pt too wide) in paragraph at lines 244--251
+Overfull \hbox (264.34843pt too wide) in paragraph at lines 242--249
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--251
+Underfull \hbox (badness 10000) in paragraph at lines 242--249
 
  []
 
 [8 <./assets/tarte_tata.png>]
-Overfull \hbox (264.34843pt too wide) in paragraph at lines 262--264
+Overfull \hbox (264.34843pt too wide) in paragraph at lines 260--262
 []$[]$
  []
 
-[9] (./main.aux) ) 
+[9]
+Overfull \hbox (264.34843pt too wide) in paragraph at lines 303--315
+[]$[]$
+ []
+
+[10]
+Overfull \hbox (264.34843pt too wide) in paragraph at lines 326--328
+[]$[]$
+ []
+
+[11]
+Chapitre 3.
+[12
+
+]
+Overfull \hbox (264.34843pt too wide) in paragraph at lines 344--346
+[]$[]$
+ []
+
+[13] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  4544 strings out of 492649
  66537 string characters out of 6129622
@@ -731,20 +740,21 @@ Here is how much of TeX's memory you used:
  15107 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,31p,440b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/
-cm-super-ts1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/c
-m-super-t1.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/
-sfbx1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sf
-bx1440.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx
-2074.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx24
-88.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1000
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
-fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on main.pdf (10 pages, 48409094 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super
+/cm-super-ts1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/
+cm-super-t1.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super
+/sfbx1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/s
+fbx1440.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfb
+x2074.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2
+488.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm100
+0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+
+Output written on main.pdf (14 pages, 48419457 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
